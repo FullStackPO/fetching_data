@@ -2,9 +2,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto;
 }
 
 html, body {
   height: 100%;
   width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: black;
+}
+main .card {
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  padding: 0px 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px white;
+  border: 1px solid black;
+}
+main .card .pgroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+main .card .pgroup .price {
+  background-color: orange;
+  padding: 2px;
+  color: white;
+}
+main .card img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
